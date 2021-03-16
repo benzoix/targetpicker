@@ -51,182 +51,317 @@
       
       const result = await liff.shareTargetPicker([
         {
-        "type": "carousel",
-          "contents": [
-            {
-              "type": "bubble",
-              "hero": {
-                "type": "image",
-                "size": "full",
-                "aspectRatio": "20:13",
-                "aspectMode": "cover",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png"
+          "type": "bubble",
+          "header": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://cf.shopee.co.th/file/bb1b18c453d02ec874691c906ebc60e3_tn",
+                    "align": "start",
+                    "flex": 1
+                  }
+                ],
+                "width": "48px",
+                "height": "48px",
+                "margin": "none",
+                "alignItems": "flex-start",
+                "justifyContent": "flex-start"
               },
-              "body": {
+              {
                 "type": "box",
                 "layout": "vertical",
-                "spacing": "sm",
                 "contents": [
                   {
                     "type": "text",
-                    "text": "Arm Chair, White",
-                    "wrap": true,
+                    "text": "Riley_Shoes",
+                    "size": "20px",
                     "weight": "bold",
-                    "size": "xl"
+                    "style": "normal"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Go to Shop",
+                    "size": "sm"
+                  }
+                ],
+                "offsetStart": "12px",
+                "offsetTop": "4px",
+                "paddingEnd": "20px"
+              }
+            ],
+            "position": "relative",
+            "alignItems": "flex-start",
+            "margin": "none",
+            "paddingAll": "20px"
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "image",
+                        "url": "https://cf.shopee.sg/file/73416b5dbf57f2840ea016bf4be1fbca",
+                        "size": "full"
+                      }
+                    ],
+                    "cornerRadius": "4px",
+                    "spacing": "none",
+                    "width": "64px",
+                    "height": "64px"
                   },
                   {
                     "type": "box",
-                    "layout": "baseline",
+                    "layout": "vertical",
                     "contents": [
                       {
                         "type": "text",
-                        "text": "$49",
-                        "wrap": true,
-                        "weight": "bold",
-                        "size": "xl",
-                        "flex": 0
+                        "text": "Woven Slide Sandals",
+                        "wrap": true
                       },
                       {
                         "type": "text",
-                        "text": ".99",
-                        "wrap": true,
+                        "text": "฿1,140 - ฿1,340",
                         "weight": "bold",
+                        "color": "#FF3B30"
+                      },
+                      {
+                        "type": "text",
+                        "text": "฿1,240 - ฿1,440",
                         "size": "sm",
-                        "flex": 0
+                        "color": "#AAAAAA",
+                        "decoration": "line-through"
+                      },
+                      {
+                        "type": "text",
+                        "text": "2 item left",
+                        "size": "xs",
+                        "offsetTop": "none"
                       }
-                    ]
+                    ],
+                    "alignItems": "flex-start",
+                    "paddingStart": "12px"
                   }
-                ]
+                ],
+                "paddingBottom": "12px",
+                "cornerRadius": "none"
               },
-              "footer": {
+              {
+                "type": "separator"
+              },
+              {
                 "type": "box",
-                "layout": "vertical",
-                "spacing": "sm",
+                "layout": "horizontal",
                 "contents": [
                   {
-                    "type": "button",
-                    "style": "primary",
-                    "action": {
-                      "type": "uri",
-                      "label": "Add to Cart",
-                      "uri": "https://linecorp.com"
-                    }
-                  },
-                  {
-                    "type": "button",
-                    "action": {
-                      "type": "uri",
-                      "label": "Add to wishlist",
-                      "uri": "https://linecorp.com"
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "type": "bubble",
-              "hero": {
-                "type": "image",
-                "size": "full",
-                "aspectRatio": "20:13",
-                "aspectMode": "cover",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_6_carousel.png"
-              },
-              "body": {
-                "type": "box",
-                "layout": "vertical",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "Metal Desk Lamp",
-                    "wrap": true,
-                    "weight": "bold",
-                    "size": "xl"
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "image",
+                        "url": "https://cf.shopee.sg/file/c5be59470e6ba4ceee69c03fd5dcdb62",
+                        "size": "full"
+                      }
+                    ],
+                    "cornerRadius": "4px",
+                    "spacing": "none",
+                    "width": "64px",
+                    "height": "64px"
                   },
                   {
                     "type": "box",
-                    "layout": "baseline",
-                    "flex": 1,
+                    "layout": "vertical",
                     "contents": [
                       {
                         "type": "text",
-                        "text": "$11",
-                        "wrap": true,
-                        "weight": "bold",
-                        "size": "xl",
-                        "flex": 0
+                        "text": "MONMOIRA Weaving N…",
+                        "wrap": true
                       },
                       {
                         "type": "text",
-                        "text": ".99",
-                        "wrap": true,
+                        "text": "฿1,140",
                         "weight": "bold",
-                        "size": "sm",
-                        "flex": 0
+                        "color": "#000000"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                          {
+                            "type": "icon",
+                            "url": "https://img.icons8.com/pastel-glyph/64/26e07f/parking--v3.png",
+                            "size": "sm",
+                            "aspectRatio": "1:1",
+                            "offsetTop": "xs"
+                          },
+                          {
+                            "type": "text",
+                            "text": "500 Points back",
+                            "size": "xs",
+                            "color": "#000000",
+                            "margin": "sm",
+                            "gravity": "center"
+                          }
+                        ]
                       }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "text": "Temporarily out of stock",
-                    "wrap": true,
-                    "size": "xxs",
-                    "margin": "md",
-                    "color": "#ff5551",
-                    "flex": 0
+                    ],
+                    "offsetStart": "none",
+                    "paddingStart": "12px"
                   }
-                ]
+                ],
+                "paddingBottom": "12px",
+                "paddingTop": "12px"
               },
-              "footer": {
+              {
+                "type": "separator",
+                "margin": "none"
+              },
+              {
                 "type": "box",
-                "layout": "vertical",
-                "spacing": "sm",
+                "layout": "horizontal",
                 "contents": [
                   {
-                    "type": "button",
-                    "flex": 2,
-                    "style": "primary",
-                    "color": "#aaaaaa",
-                    "action": {
-                      "type": "uri",
-                      "label": "Add to Cart",
-                      "uri": "https://linecorp.com"
-                    }
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "image",
+                        "url": "https://cf.shopee.sg/file/6bdfed4f68b0db066a497eeb18128f28",
+                        "size": "full"
+                      }
+                    ],
+                    "cornerRadius": "4px",
+                    "spacing": "none",
+                    "width": "64px",
+                    "height": "64px"
                   },
                   {
-                    "type": "button",
-                    "action": {
-                      "type": "uri",
-                      "label": "Add to wish list",
-                      "uri": "https://linecorp.com"
-                    }
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "Leather Copper Head B...",
+                        "wrap": true
+                      },
+                      {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "฿1,140",
+                            "weight": "bold",
+                            "color": "#FF3B30",
+                            "offsetStart": "none",
+                            "flex": 2
+                          },
+                          {
+                            "type": "text",
+                            "text": "฿1,240",
+                            "size": "sm",
+                            "offsetStart": "none",
+                            "color": "#AAAAAA",
+                            "decoration": "line-through",
+                            "margin": "none",
+                            "flex": 5
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "50% discount",
+                        "size": "xs",
+                        "color": "#000000"
+                      }
+                    ],
+                    "paddingStart": "12px"
                   }
-                ]
-              }
-            },
-            {
-              "type": "bubble",
-              "body": {
+                ],
+                "paddingTop": "lg",
+                "paddingBottom": "lg"
+              },
+              {
+                "type": "separator",
+                "margin": "none"
+              },
+              {
                 "type": "box",
-                "layout": "vertical",
-                "spacing": "sm",
+                "layout": "horizontal",
                 "contents": [
                   {
-                    "type": "button",
-                    "flex": 1,
-                    "gravity": "center",
-                    "action": {
-                      "type": "uri",
-                      "label": "See more",
-                      "uri": "https://linecorp.com"
-                    }
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "image",
+                        "url": "https://cf.shopee.sg/file/c5be59470e6ba4ceee69c03fd5dcdb62",
+                        "size": "full"
+                      }
+                    ],
+                    "cornerRadius": "4px",
+                    "spacing": "none",
+                    "width": "64px",
+                    "height": "64px"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "MONMOIRA Weaving N…",
+                        "wrap": true
+                      },
+                      {
+                        "type": "text",
+                        "text": "฿1,140",
+                        "weight": "bold",
+                        "color": "#000000"
+                      }
+                    ],
+                    "flex": 3,
+                    "offsetStart": "md"
                   }
-                ]
+                ],
+                "paddingBottom": "none",
+                "paddingTop": "lg"
               }
-            }
-          ]
-        }])
+            ],
+            "margin": "none"
+          },
+          "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "Share all products",
+                  "uri": "http://linecorp.com/"
+                },
+                "style": "link",
+                "color": "#3C41FF"
+              }
+            ],
+            "paddingAll": "20px"
+          }
+        }
+      ])
     }
     async function shareMsg() {
       const result = await liff.shareTargetPicker([
